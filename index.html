@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to [Company Name]</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#profile">Our Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About the Company</h2>
+        <p>Description about the company.</p>
+    </section>
+
+    <section id="vision">
+        <h2>Vision and Mission</h2>
+        <p>Vision and mission of the company.</p>
+    </section>
+
+    <section id="profile">
+        <h2>Our Profile</h2>
+        <p>Details of our profile.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
