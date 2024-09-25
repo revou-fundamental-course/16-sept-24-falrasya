@@ -11,3 +11,13 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         alert('Form submitted successfully!');
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const bannerImage = document.querySelector('#banner img');
+    bannerImage.style.opacity = 0;
+    
+    setTimeout(function() {
+        bannerImage.style.transition = 'opacity 2s';
+        bannerImage.style.opacity = 1;
+    }, 1000); // Muncul setelah 1 detik
+});
